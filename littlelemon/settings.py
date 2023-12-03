@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'myapp',
-    'booking'
+   
 ]
 
 MIDDLEWARE = [
@@ -70,7 +70,7 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'booking',
+        'NAME': 'littlelemon_db',
         'HOST':'localhost',
         'USER':"root",
         'PASSWORD':"",
